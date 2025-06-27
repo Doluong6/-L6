@@ -8,8 +8,7 @@ from modules import (
 
 app = FastAPI()
 
-# Gắn các router từ từng module
-app.include_router(bao_gia.router)
+# Gắn các router từ từng modules
 app.include_router(upload_pyc.router)
 app.include_router(upload_bienban.router)
 app.include_router(upload_kemtheo.router)
