@@ -1,22 +1,9 @@
----
-title: Ứng dụng tổng hợp của QUATEST 1 - Phòng Đo lường 6
-emoji: 📋
-colorFrom: indigo
-colorTo: blue
-sdk: streamlit
-app_file: app.py
-pinned: false
-license: mit
-sdk_version: 1.46.0
----
 
 # 📋 Ứng dụng tạo báo giá - QUATEST 1 (Phòng Đo lường 6)
 
 Hệ thống tạo báo giá tự động từ phiếu yêu cầu, bảng giá thiết bị và hỗ trợ gửi mail hàng loạt cho khách hàng.
 
 ## 🔗 Thành phần hệ thống
-- **Frontend**: Streamlit UI (triển khai trên Hugging Face Spaces)
-- **Backend**: FastAPI (triển khai trên Render)
 - **Tích hợp**:
   - Tạo báo giá từ file `.xlsx`
   - Gọi API backend xử lý logic báo giá
