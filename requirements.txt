@@ -10,7 +10,5 @@ num2words==0.5.12
 huggingface_hub
 numpy
 pillow
-paddleocr>=2.6.1.3
-paddlepaddle==2.5.1
 opencv-python-headless
 matplotlib
